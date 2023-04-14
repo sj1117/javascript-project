@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz2-2.html</title>
+</head>
+<body>
+    <script>
+        var ki = prompt('신장을 입력하시오.');
+        var go = '놀이기구 이용가능'
+        var answer;
+
+          if (ki < 150) {
+            answer=confirm('부모와 함께왔습니까?')
+
+            if (answer) {
+                go = '좋은시간 보내렴'
+            } else {
+                go = '어른 모시고 다시오렴'
+            }
+          }
+          document.write(go)
+          
+
+        
+
+        
+
+            
+    </script>
+</body>
+</html>
